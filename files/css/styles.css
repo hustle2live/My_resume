@@ -70,6 +70,14 @@ body {
   margin: 0 0 0 0;
 }
 
+.my-education-section {
+  margin-bottom: 40px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
 /* sidebar section styles */
 
 .sidebar-section {
@@ -81,7 +89,6 @@ body {
 .sidebar-info-section {
   color: #fff;
   padding-right: 24px;
-
 }
 
 .contact-section,
@@ -110,7 +117,7 @@ body {
   font-size: 14px;
   line-height: 24px;
   line-height: 141%;
-  
+
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -147,6 +154,7 @@ body {
   font-size: 12px;
   line-height: 15px;
   color: #a8a8a8;
+  font-weight: 400;
 }
 
 .h3-main-title {
