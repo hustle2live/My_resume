@@ -51,6 +51,12 @@ body {
   font-size: 14px;
   line-height: 24px;
   line-height: 141%;
+}
+
+.my-description-section,
+.work-experience-description,
+.my-projects-text,
+.link {
   color: #595959;
 }
 
@@ -66,7 +72,7 @@ body {
   width: 525px;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+
   margin: 0 0 0 0;
 }
 
@@ -125,7 +131,6 @@ body {
   font-size: 14px;
   line-height: 24px;
   line-height: 141%;
-
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -210,14 +215,12 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
   margin-left: 10px;
 }
 
-.my-projects-link {
+.link {
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
 }
 
 .my-projects-bracket {
