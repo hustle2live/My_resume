@@ -23,11 +23,8 @@ body {
 .my-projects-bracket,
 .my-project-item,
 .work-experience-title,
-.sidebar-title,
 .about-me-profession,
 .contact-section-type,
-.h3-main-title,
-.work-experience-title,
 .education-subtitle,
 .my-name-section {
   font-weight: Bold;
@@ -46,8 +43,7 @@ body {
 .work-experience-title,
 .my-project-item,
 .my-projects-bracket,
-.my-projects-bracket-2,
-.h3-main-title {
+.my-projects-bracket-2 {
   color: #000;
 }
 
@@ -79,6 +75,7 @@ body {
 }
 
 .main-content-section {
+  width: 70%;
   padding: 100px 140px 100px 90px;
 }
 
@@ -95,7 +92,7 @@ body {
   line-height: 141%;
 }
 
-.me {
+.my-profile {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -112,10 +109,6 @@ body {
 .my-education-section,
 .my-work-experience-section {
   margin-bottom: 40px;
-}
-
-.work-experience-item {
-  padding-left: 17px;
 }
 
 .cv-photo {
@@ -135,8 +128,13 @@ body {
 }
 
 .work-experience-description {
+  padding-left: 17px;
   width: 525px;
   margin: 0;
+}
+
+.tech-skills-list {
+  padding-left: 17px;
 }
 
 .social {
@@ -146,10 +144,8 @@ body {
   margin-left: 10px;
 }
 
-/* sidebar section styles */
-
 .sidebar-section {
-  width: 100%;
+  width: 30%;
   background-color: #1e2939;
   padding: 60px 20px;
 }
@@ -164,12 +160,6 @@ body {
   margin: 50px 0 0 40px;
 }
 
-.sidebar-title {
-  font-size: 22px;
-  line-height: 27px;
-  margin-bottom: 10px;
-}
-
 .contact-section-type {
   margin: 0 10px 0 2px;
 }
@@ -179,13 +169,7 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
-/* Tech-skills-list-section */
-
-.tech-skills-list {
-  padding-left: 20px;
-}
-
-.work-experience-title-orange,
+.orange,
 .tech-skills-item {
   color: #fb6d3a;
 }
@@ -207,9 +191,11 @@ body {
   font-weight: 400;
 }
 
-.h3-main-title {
+h3 {
   font-size: 22px;
+  font-weight: Bold;
   line-height: 27px;
+  color: #000;
   margin-bottom: 12px;
 }
 
@@ -225,8 +211,6 @@ body {
 .company {
   margin-bottom: 15px;
 }
-
-/* My project section */
 
 .my-project-section {
   margin-bottom: 50px;
@@ -261,6 +245,14 @@ body {
 .contact-section {
   padding: 0;
   margin: 0;
+}
+
+.expand {
+  color: #fb6d3a;
+  border: 1px solid #000;
+  position: absolute;
+  margin-top: -6px;
+  margin-left: 10px;
 }
 
 @media (max-width: 768px) {
@@ -319,17 +311,11 @@ body {
 }
 
 @media (max-width: 560px) {
-  .work-experience-item,
-  .work-experience-description {
-    font-size: 12px;
-  }
-
   .main-content-section {
     padding: 40px 20px;
   }
 
-  .sidebar-title,
-  .h3-main-title {
+  h3 {
     font-size: 18px;
   }
 
