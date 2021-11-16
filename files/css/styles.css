@@ -274,7 +274,7 @@ h3 {
   .sidebar-info-section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
   }
 
   .contact-section,
@@ -296,6 +296,7 @@ h3 {
 
   .main-content-section {
     padding: 60px 40px;
+    width: 90%;
   }
 
   .my-name-section {
