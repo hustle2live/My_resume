@@ -241,6 +241,16 @@ h3 {
   color: #000;
 }
 
+.my-projects-text a {
+  color: #1758b9;
+  text-decoration: none;
+}
+
+.my-projects-text a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 .cv-photo,
 .contact-section {
   padding: 0;
