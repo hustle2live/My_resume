@@ -1,11 +1,12 @@
-document
-  .querySelector('.button-first')
-  .addEventListener('click', () => document.querySelector('.first-list').classList.toggle('hide'));
+const buttonOne = document.querySelector('.button-first');
+const buttonTwo = document.querySelector('.button-second');
+const buttonThree = document.querySelector('.button-third');
+const ulLists = document.querySelectorAll('.list');
 
-document
-  .querySelector('.button-second')
-  .addEventListener('click', () => document.querySelector('.second-list').classList.toggle('hide'));
+buttonOne.addEventListener('click', () => ulLists[0].classList.toggle('hide'));
 
-document
-  .querySelector('.button-third')
-  .addEventListener('click', () => document.querySelector('.third-list').classList.toggle('hide'));
+buttonTwo.addEventListener('click', () => ulLists[1].classList.toggle('hide'));
+
+buttonThree.addEventListener('click', () =>
+  ulLists[2].classList.toggle('hide')
+);
