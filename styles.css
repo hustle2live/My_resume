@@ -111,12 +111,13 @@ button:hover {
 }
 
 .my-description-section {
-  margin-right: 40px;
+  margin-right: 5px;
   line-height: 141%;
+  text-align: justify;
 }
 
 .my-description-section p {
-  width: 80%;
+  width: 100%;
 }
 
 .my-profile {
@@ -170,6 +171,10 @@ button:hover {
   margin: 50px 0 0 40px;
 }
 
+.contact-section {
+  margin-top: 42px;
+}
+
 .contact-section-type {
   margin: 0 10px 0 2px;
 }
@@ -177,6 +182,15 @@ button:hover {
 .contact-section-link {
   line-height: 141%;
   color: rgba(255, 255, 255, 0.7);
+}
+.phone,
+.mail {
+  text-decoration: none;
+}
+
+.phone:hover,
+.mail:hover {
+  text-decoration: underline;
 }
 
 .orange,
@@ -309,6 +323,10 @@ h3 {
 
 .cources-table li {
   padding: 0 20px;
+}
+
+.work-experience-description.inthernship li {
+  list-style-type: none;
 }
 
 @media print {
