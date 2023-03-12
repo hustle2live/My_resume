@@ -228,7 +228,12 @@ h3 {
 }
 
 .my-project-section {
+  margin: 0;
   margin-bottom: 35px;
+  width: 100%;
+  margin-right: 5px;
+  padding: 0;
+  text-align: justify;
 }
 
 .my-projects-list {
@@ -237,7 +242,6 @@ h3 {
 
 .my-projects-text {
   font-weight: 400;
-  margin-left: 10px;
 }
 
 .my-projects-bracket-2 {
@@ -330,16 +334,16 @@ h3 {
   }
 }
 
-.my-project-section {
-  margin-right: 5px;
-  padding: 0;
+.my-projects-list {
+  text-align: end;
 }
 
-.my-projects-text {
+.my-projects-item {
+  align-self: auto;
   text-align: start;
 }
 
-.my-projects-list {
+.my-projects-text {
   text-align: end;
 }
 
