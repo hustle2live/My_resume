@@ -101,15 +101,6 @@ body {
   margin: 19px 0 24px 0;
 }
 
-.my-name-section:hover {
-  cursor: pointer;
-  color: #fb6d3a;
-}
-
-button:hover {
-  cursor: pointer;
-}
-
 .my-description-section {
   margin-right: 5px;
   line-height: 141%;
@@ -317,12 +308,16 @@ h3 {
 }
 
 .cources-table {
+  width: 100%;
   font-size: 14px;
   color: #595959;
 }
 
 .cources-table li {
   padding: 0 20px;
+}
+.cources-table td {
+  width: 50%;
 }
 
 .work-experience-description.inthernship li {
@@ -333,4 +328,23 @@ h3 {
   .expand {
     display: none;
   }
+}
+
+.my-project-section {
+  margin-right: 5px;
+  padding: 0;
+}
+
+.my-projects-text {
+  text-align: start;
+}
+
+.my-projects-list {
+  text-align: end;
+}
+
+.work {
+  padding-left: 0;
+  line-height: 24px;
+  margin: 4px 0;
 }
