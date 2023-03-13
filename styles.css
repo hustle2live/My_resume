@@ -287,7 +287,7 @@ h3 {
 
 .cv-photo {
   border: none;
-  padding-top: 50px;
+  padding-top: 26px;
   background-color: #fff;
 }
 
@@ -324,13 +324,25 @@ h3 {
   width: 50%;
 }
 
-.work-experience-description.inthernship li {
+.work-experience-description.inthernship li,
+.tech-skills-item.edu {
   list-style-type: none;
+}
+
+.tech-skills-list.edu {
+  padding: 0;
 }
 
 @media print {
   .expand {
     display: none;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    background: #fff;
   }
 }
 
