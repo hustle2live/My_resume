@@ -9,6 +9,26 @@ body {
    display: none;
 }
 
+.phone,
+.mail {
+   font-weight: 400;
+   text-decoration: none;
+}
+
+.phone:hover,
+.mail:hover {
+   text-decoration: underline;
+}
+
+.my-project-section a:hover,
+.sidebar-section a:hover {
+   color: #fb6d3a !important;
+}
+
+a.orange:hover {
+   color: #fb6d3ac3;
+}
+
 .work-experience-description,
 .contact-section-type,
 .contact-section-link,
@@ -321,9 +341,9 @@ h3 {
    text-decoration: underline;
 }
 
-.sidebar-info-section a {
-   /* text-decoration: none; */
-}
+/* .sidebar-info-section a {
+   text-decoration: none;
+} */
 
 .expand {
    color: #fb6d3a;
