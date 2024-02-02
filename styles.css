@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
+
 body {
    font-family: 'Montserrat', sans-serif;
    background-color: #e5e5e5;
@@ -7,6 +9,11 @@ body {
 
 .hide {
    display: none;
+}
+
+.semi-bold {
+   font-weight: 600;
+   color: #565656;
 }
 
 .phone,
@@ -26,7 +33,7 @@ body {
 }
 
 a.orange:hover {
-   color: #fb6d3ac3;
+   color: #fb6d3a98;
 }
 
 .work-experience-description,
@@ -231,6 +238,13 @@ address span.work-experience-subtitle {
    color: #fb6d3a;
 }
 
+.tech-skills-item ul {
+   margin-bottom: 2px;
+}
+
+.tech-skills-item ul li {
+   line-height: 1.4;
+}
 /* .tech-skills-item-text { */
 /* line-height: 141%; */
 /* } */
