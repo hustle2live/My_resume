@@ -11,6 +11,10 @@ body {
    display: none;
 }
 
+.regular {
+   font-weight: 400;
+}
+
 .semibold {
    font-weight: 500;
 }
@@ -244,11 +248,13 @@ address span.work-experience-subtitle {
 }
 
 .tech-skills-item ul {
-   margin-bottom: 2px;
+   margin-bottom: 4px;
+   margin-top: 4px;
 }
 
 .tech-skills-item ul li {
-   line-height: 1.4;
+   line-height: 160%;
+   font-size: 14px;
 }
 
 .education .tech-skills-item-text {
