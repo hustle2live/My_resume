@@ -11,7 +11,11 @@ body {
    display: none;
 }
 
-.semi-bold {
+.semibold {
+   font-weight: 500;
+}
+
+.medium {
    font-weight: 600;
    color: #565656;
 }
@@ -27,6 +31,7 @@ body {
    text-decoration: underline;
 }
 
+.soft-skills-section a,
 .my-project-section a:hover,
 .sidebar-section a:hover {
    color: #fb6d3a !important;
@@ -245,9 +250,11 @@ address span.work-experience-subtitle {
 .tech-skills-item ul li {
    line-height: 1.4;
 }
-/* .tech-skills-item-text { */
-/* line-height: 141%; */
-/* } */
+
+.education .tech-skills-item-text {
+   line-height: 130%;
+   margin: 8px 0;
+}
 
 .work-experience-title {
    font-size: 16px;
@@ -413,6 +420,7 @@ h3 {
 
 .tech-skills-list.edu {
    padding: 0;
+   margin-top: 0;
 }
 
 .my-projects-text {
