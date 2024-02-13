@@ -124,7 +124,7 @@ a.orange:hover {
    width: 35%;
    background-color: #1e2939;
    padding: 0 0 20px 0;
-   margin-top: 60px;
+   /* margin-top: 60px; */
 }
 
 .sidebar-section,
@@ -382,7 +382,8 @@ h3 {
 
 .cv-photo {
    border: none;
-   padding-top: 26px;
+   /* padding-top: 26px; */
+   padding-top: 8px;
    background-color: #fff;
 }
 
