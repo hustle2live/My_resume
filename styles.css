@@ -7,6 +7,23 @@ body {
    margin-top: 0;
 }
 
+b {
+   font-weight: 600;
+   color: #252b34;
+}
+
+.compress {
+   letter-spacing: -1px;
+}
+
+.dots {
+   letter-spacing: normal;
+}
+
+.stack {
+   text-align: right;
+}
+
 .hide {
    display: none;
 }
@@ -124,7 +141,6 @@ a.orange:hover {
    width: 35%;
    background-color: #1e2939;
    padding: 0 0 20px 0;
-   /* margin-top: 60px; */
 }
 
 .sidebar-section,
@@ -137,7 +153,6 @@ a.orange:hover {
 }
 
 .my-name-section {
-   /* position: relative; */
    font-size: 44px;
    line-height: 55px;
    margin: 19px 0 -5px 0;
@@ -216,10 +231,8 @@ ul.contact-section-type {
 
 .contact-section-link a,
 address span.work-experience-subtitle {
-   /* font-family: Arial, Helvetica, sans-serif; */
    font-size: 16px;
    line-height: 24px;
-   /* letter-spacing: 2.5px; */
    color: #fff;
    opacity: 0.89;
 }
@@ -287,7 +300,6 @@ address span.work-experience-subtitle {
 
 .my-description-section .my-projects-bracket-2,
 .my-description-section .work-experience-subtitle {
-   /* position: absolute; */
    font-size: 16px;
    margin-left: 0;
    margin-bottom: 40px;
@@ -297,7 +309,6 @@ address span.work-experience-subtitle {
    font-size: 16px;
    color: #fff;
    margin-left: 0;
-   /* opacity: 0.75; */
 }
 
 h3 {
@@ -358,19 +369,14 @@ h3 {
 }
 
 .my-projects-text a {
-   /* color: #1758b9; */
    color: #1e2939;
-   /* text-decoration: none; */
+   text-decoration: underline solid #c1c1c1;
 }
 
 .my-projects-text a:hover {
    color: #000;
    text-decoration: underline;
 }
-
-/* .sidebar-info-section a {
-   text-decoration: none;
-} */
 
 .expand {
    color: #fb6d3a;
@@ -382,7 +388,6 @@ h3 {
 
 .cv-photo {
    border: none;
-   /* padding-top: 26px; */
    padding-top: 8px;
    background-color: #fff;
 }
