@@ -368,8 +368,14 @@ h3 {
    color: #fff;
 }
 
+.my-projects-link.project {
+   font-weight: 600;
+}
+
 .my-projects-text a {
    color: #1e2939;
+   font-weight: 500;
+
    text-decoration: underline solid #c1c1c1;
 }
 
