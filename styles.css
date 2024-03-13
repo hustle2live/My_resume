@@ -20,6 +20,11 @@ b {
    letter-spacing: normal;
 }
 
+.small {
+   line-height: 10px;
+   font-size: 10px;
+}
+
 .stack {
    text-align: right;
 }
@@ -162,6 +167,7 @@ a.orange:hover {
    margin-right: 5px;
    line-height: 141%;
    text-align: justify;
+   margin-bottom: 18px;
 }
 
 .my-description-section p {
