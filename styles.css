@@ -49,7 +49,7 @@ b {
 .phone,
 .mail {
    font-weight: 400;
-   text-decoration: none;
+   /* text-decoration: none; */
 }
 
 .phone:hover,
