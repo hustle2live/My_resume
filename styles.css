@@ -2,7 +2,8 @@
 
 body {
    font-family: 'Montserrat', sans-serif;
-   background-color: #e5e5e5;
+   /* background-color: #e5e5e5; */
+   background-color: transparent;
    padding: 0 0 100px 0;
    margin-top: 0;
 }
@@ -189,7 +190,8 @@ a.orange:hover {
 }
 
 .cv-photo {
-   background: #fff;
+   /* background: #fff; */
+   background: transparent;
 }
 
 .my-description-section,
