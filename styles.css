@@ -3,9 +3,8 @@
 html,
 body {
    font-family: 'Montserrat', sans-serif;
-   /* background-color: #e5e5e5; */
    background-color: transparent;
-   padding: 0 0 100px 0;
+   padding: 0;
    margin-top: 0;
 }
 
@@ -15,7 +14,7 @@ b {
 }
 
 .compress {
-   letter-spacing: -1px;
+   letter-spacing: -0.5px;
 }
 
 .dots {
@@ -130,7 +129,7 @@ a.orange:hover {
 .main-container {
    display: flex;
    flex-direction: row-reverse;
-   width: 1440px;
+   width: 1530px;
    background-color: #fff;
    margin: 0 auto;
    box-shadow: 6px 6px 20px rgba(102, 65, 65, 0.1);
@@ -145,6 +144,7 @@ a.orange:hover {
 .sidebar-section {
    display: block;
    width: 35%;
+   /* min-height: 100%; */
    background-color: #1e2939;
    padding: 0 0 20px 0;
 }
@@ -294,7 +294,7 @@ address span.work-experience-subtitle {
    font-size: 14px;
    /* vertical-align: top; */
    vertical-align: super;
-   letter-spacing: -1px;
+   /* letter-spacing: -1px; */
    color: #000000;
    font-weight: 500;
    text-decoration: underline solid #000000;
@@ -303,7 +303,7 @@ address span.work-experience-subtitle {
 /* .my-education-section .work-experience-title a, */
 .my-education-section .work-experience-title {
    line-height: 24px;
-   letter-spacing: -0.3px;
+   /* letter-spacing: -0.3px; */
    margin-top: 16px;
    margin-bottom: 4px;
 }
@@ -499,6 +499,27 @@ h3 {
 .my-projects-link {
    display: inline-block;
    align-self: flex-start;
+}
+
+@media print {
+   /* стили для печати */
+   /* html, */
+   body {
+      overflow: hidden;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+      background: #1e2939;
+      box-sizing: border-box;
+   }
+
+   .main-container {
+      box-shadow: none;
+      padding: 0;
+      box-sizing: border-box;
+      padding-top: 10px;
+      height: 100%;
+   }
 }
 
 /* @media screen, print {  */
