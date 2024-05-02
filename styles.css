@@ -67,7 +67,7 @@ a.orange:hover {
    color: #fb6d3a98;
 }
 
-.pink {
+/* .pink {
    color: rgb(220, 97, 117);
    font-weight: 600;
 }
@@ -75,7 +75,7 @@ a.orange:hover {
 .blue {
    color: blueviolet;
    font-weight: 600;
-}
+} */
 
 .work-experience-description,
 .contact-section-type,
@@ -536,28 +536,14 @@ h3 {
 /* @media screen, print {  */
 
 @media print {
-   /* .expand {
-      display: none;
-   } */
-
    body {
       margin-left: 0;
       margin-right: auto;
    }
 
-   /* *,
-   body,
-   div,
-   aside,
-   ul,
-   li,
-   span,
-   p,
-   span,
-   a {
-      background-color: transparent;
-      background: transparent;
-      color: #000;
-      opacity: 1;
-   } */
+   .main-container {
+      width: 1620px;
+      min-height: 100vh;
+      background: #ffffff;
+   }
 }
