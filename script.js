@@ -388,3 +388,31 @@ function checkCashRegister(price, cash, cid) {
 //       }
 // );
 // tests completed
+
+
+
+function go(a, b) {
+   this.a = a;
+   this.b = b;
+}
+
+go.prototype.sum = () =>    {
+   return  this.a + this.b
+}
+
+
+class Go(a, b) {
+   constructor() {
+      this.a = a;
+      this.b = b
+   }
+
+   sum () {
+      return  this.a + this.b
+   }
+}
+
+
+const go1 = new go(11,12) // {a: 11, b:12}
+const go2 = new go(44, 55) // {a: 44, b: 55}
+
