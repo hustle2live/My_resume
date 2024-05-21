@@ -1,11 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
 
+/* html,
+body {
+   background: #000;
+} */
+
 html,
 body {
    font-family: 'Montserrat', sans-serif;
    background-color: transparent;
    padding: 0;
    margin-top: 0;
+   box-sizing: border-box;
 }
 
 b {
@@ -143,6 +149,9 @@ a.orange:hover {
    background-color: #fff;
    margin: 0 auto;
    box-shadow: 6px 6px 20px rgba(102, 65, 65, 0.1);
+
+   width: 1620px;
+   min-height: 100vh;
 }
 
 .main-content-section {
@@ -217,8 +226,17 @@ a.orange:hover {
 }
 
 .work-experience-description {
-   padding-left: 17px;
+   /* padding-left: 17px; */
    margin: 0;
+}
+
+.my-description-section p:not(.my-name-section),
+.my-work-experience-section .work-experience-title {
+   padding-left: 20px;
+}
+
+.my-work-experience-section .work-experience-description {
+   max-width: 650px;
 }
 
 .tech-skills-list {
@@ -309,14 +327,18 @@ address span.work-experience-subtitle {
 }
 
 .my-education-section ul {
-   list-style-type: none;
-   padding-left: 0;
+   /* list-style-type: none; */
+   padding-left: 24px;
 }
 
-.my-education-section .work-experience-title {
-   line-height: 24px;
-   margin-top: 16px;
-   margin-bottom: 4px;
+.my-education-section li h4 {
+   /* font-weight: 600; */
+   /* padding-left: 24px; */
+}
+
+.my-education-section li {
+   list-style: none;
+   margin-top: 11px;
 }
 
 .work-experience-title {
@@ -386,7 +408,7 @@ h3 {
 }
 
 .my-projects-list {
-   padding-left: 17px;
+   /* padding-left: 17px; */
 }
 
 .my-projects-text {
@@ -477,6 +499,7 @@ h3 {
    width: 50%;
 }
 
+.work-experience-description,
 .work-experience-description.inthernship li,
 .tech-skills-item.edu {
    list-style-type: none;
@@ -512,6 +535,8 @@ h3 {
    align-self: flex-start;
 }
 
+/* @media screen, print {  */
+
 @media print {
    /* стили для печати */
    /* html, */
@@ -522,6 +547,7 @@ h3 {
       padding: 0;
       background: #1e2939;
       box-sizing: border-box;
+      margin-right: auto;
    }
 
    .main-container {
@@ -530,20 +556,9 @@ h3 {
       box-sizing: border-box;
       padding-top: 10px;
       height: 100%;
-   }
-}
 
-/* @media screen, print {  */
-
-@media print {
-   body {
-      margin-left: 0;
-      margin-right: auto;
-   }
-
-   .main-container {
-      width: 1620px;
-      min-height: 100vh;
-      background: #ffffff;
+      /* width: 1620px; */
+      /* min-height: 100vh; */
+      /* background: #ffffff; */
    }
 }
