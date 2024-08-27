@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;900&display=swap');
 
-/* html,
-body {
-   background: #000;
-} */
-
 html,
 body {
    font-family: 'Montserrat', sans-serif;
@@ -13,6 +8,13 @@ body {
    margin-top: 0;
    box-sizing: border-box;
 }
+
+/*
+iframe {
+   overflow: visible;
+   width: -webkit-fill-available;
+   height: auto;
+} */
 
 b {
    font-weight: 600;
@@ -145,24 +147,25 @@ a.orange:hover {
 .main-container {
    display: flex;
    flex-direction: row-reverse;
-   width: 1530px;
+   flex-wrap: nowrap;
+   box-sizing: border-box;
+   /* width: 1530px; */
    background-color: #fff;
    margin: 0 auto;
    box-shadow: 6px 6px 20px rgba(102, 65, 65, 0.1);
-
    width: 1620px;
    min-height: 100vh;
 }
 
 .main-content-section {
    display: block;
-   width: 65%;
+   /* width: 65%; */
    padding: 50px 120px 80px 90px;
 }
 
 .sidebar-section {
    display: block;
-   width: 35%;
+   /* width: 35%; */
    /* min-height: 100%; */
    background-color: #1e2939;
    padding: 0 0 20px 0;
