@@ -151,13 +151,12 @@ a.orange:hover {
 .main-container {
    display: flex;
    flex-direction: row-reverse;
-   width: 1530px;
    background-color: #fff;
    margin: 0 auto;
    box-shadow: 6px 6px 20px rgba(102, 65, 65, 0.1);
 
    width: 1620px;
-   min-height: 100vh;
+   /* min-height: 100vh; */
 }
 
 .main-content-section {
@@ -215,7 +214,6 @@ a.orange:hover {
 }
 
 .cv-photo {
-   /* background: #fff; */
    background: transparent;
 }
 
@@ -232,7 +230,6 @@ a.orange:hover {
 }
 
 .work-experience-description {
-   /* padding-left: 17px; */
    margin: 0;
 }
 
@@ -242,7 +239,7 @@ a.orange:hover {
 }
 
 .my-work-experience-section .work-experience-description {
-   max-width: 650px;
+   max-width: 800px;
 }
 
 .tech-skills-list {
@@ -326,10 +323,8 @@ address span.work-experience-subtitle {
 /* .work-experience-title .credential, */
 .credential {
    font-size: 14px;
-   /* vertical-align: super; */
    color: #000000;
    font-weight: 500;
-   /* text-decoration: underline 1px solid #128cbd; */
    text-decoration: none;
 }
 .credential:hover {
@@ -339,7 +334,6 @@ address span.work-experience-subtitle {
 .my-education-section ul {
    padding-left: 24px;
 }
-
 
 .my-education-section li {
    list-style: none;
@@ -544,13 +538,18 @@ h3 {
 
 @media print {
    /* стили для печати */
-   /* html, */
+   html {
+      background: #ffffff !important;
+   }
+   html,
    body {
       overflow: hidden;
       width: 100%;
       margin: 0;
       padding: 0;
       background: #1e2939;
+      background: #ffffff !important;
+
       box-sizing: border-box;
       margin-right: auto;
    }
@@ -560,10 +559,10 @@ h3 {
       padding: 0;
       box-sizing: border-box;
       padding-top: 10px;
-      height: 100%;
+      /* height: 100%; */
 
       /* width: 1620px; */
       /* min-height: 100vh; */
-      /* background: #ffffff; */
+      background: #ffffff !important;
    }
 }
