@@ -337,7 +337,7 @@ address span.work-experience-subtitle {
 
 .my-education-section li {
    list-style: none;
-   margin-top: 1px;
+   /* margin-top: 1px; */
 }
 
 .work-experience-title {
