@@ -14,6 +14,11 @@ body {
    box-sizing: border-box;
 }
 
+.underline {
+   text-decoration: underline;
+   font-weight: 500;
+}
+
 b {
    font-weight: 600;
    color: #252b34;
@@ -120,6 +125,7 @@ a.orange:hover {
    white-space: nowrap;
 }
 
+.underline,
 .about-me-profession,
 .work-experience-title,
 .my-project-item,
