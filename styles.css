@@ -197,7 +197,7 @@ a.orange:hover {
 }
 
 .my-description-section p {
-   width: 100%;
+   width: 80%;
 }
 
 .my-profile {
@@ -239,7 +239,7 @@ a.orange:hover {
 }
 
 .my-work-experience-section .work-experience-description {
-   max-width: 800px;
+   max-width: 650px;
 }
 
 .tech-skills-list {
@@ -400,7 +400,7 @@ h3 {
 .my-project-section {
    margin: 0;
    margin-bottom: 35px;
-   width: 100%;
+   width: 90%;
    margin-right: 5px;
    padding: 0;
    text-align: justify;
@@ -548,7 +548,7 @@ h3 {
       margin: 0;
       padding: 0;
       background: #1e2939;
-      background: #ffffff !important;
+      background: transparent !important;
 
       box-sizing: border-box;
       margin-right: auto;
@@ -563,6 +563,6 @@ h3 {
 
       /* width: 1620px; */
       /* min-height: 100vh; */
-      background: #ffffff !important;
+      /* background: #ffffff !important; */
    }
 }
