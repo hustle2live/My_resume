@@ -2,4 +2,4 @@
 
 **This is my CV.**
 
-Please view a Demo [onclick](https://hustle2live.github.io/My_resume/)
+To view it [click here](https://hustle2live.github.io/My_resume/)
