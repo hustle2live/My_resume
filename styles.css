@@ -338,8 +338,11 @@ address span.work-experience-subtitle {
 }
 
 .my-education-section li {
-   list-style: none;
+   /* list-style: none; */
+   list-style: '>  ';
    /* margin-top: 1px; */
+   margin-left: 15px;
+   /* line-height: 40px !important; */
 }
 
 .work-experience-title {
@@ -536,31 +539,46 @@ h3 {
    align-self: flex-start;
 }
 
+.svg_ico {
+   padding-left: 2ch;
+   width: 18px;
+   height: 18px;
+   vertical-align: sub;
+}
+
+.svg_ico path {
+   fill: #fb6d3a;
+}
+
+.svg_ico.location path {
+   fill: #c1c1c1;
+}
+
 @media print {
-/* стили для печати */
+   /* стили для печати */
 
-html,
-body {
-   overflow: hidden;
-   width: 100%;
-   /* background: #1e2939; */
-   /* background: grey; */
-   background: transparent !important;
-   box-sizing: border-box;
-   margin: 0;
-   margin-right: auto;
-   padding: 0;
-}
+   html,
+   body {
+      overflow: hidden;
+      width: 100%;
+      /* background: #1e2939; */
+      /* background: grey; */
+      background: transparent !important;
+      box-sizing: border-box;
+      margin: 0;
+      margin-right: auto;
+      padding: 0;
+   }
 
-.main-container {
-   box-shadow: none !important;
-   padding: 0;
-   box-sizing: border-box;
-   padding-top: 10px;
-   height: 100%;
-}
+   .main-container {
+      box-shadow: none !important;
+      padding: 0;
+      box-sizing: border-box;
+      padding-top: 10px;
+      height: 100%;
+   }
 
-.sidebar-section {
-   padding: 0;
-}
+   .sidebar-section {
+      padding: 0;
+   }
 }
