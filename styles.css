@@ -239,6 +239,9 @@ a.orange:hover {
 .my-work-experience-section .work-experience-title {
    padding-left: 20px;
 }
+.my-description-section > .work-experience-subtitle.location {
+   padding-left: 0;
+}
 
 .my-work-experience-section .work-experience-description {
    max-width: 720px;
@@ -342,7 +345,6 @@ address span.work-experience-subtitle {
    list-style: '>  ';
    /* margin-top: 1px; */
    margin-left: 15px;
-   /* line-height: 40px !important; */
 }
 
 .work-experience-title {
@@ -458,7 +460,7 @@ h3 {
 
 .expand {
    color: #fb6d3a;
-   border: 1px solid #000;
+   /* border: 1px solid #000; */
    position: absolute;
    margin-top: -6px;
    margin-left: 10px;
@@ -540,7 +542,7 @@ h3 {
 }
 
 .svg_ico {
-   padding-left: 2ch;
+   padding-left: 1.6ch;
    width: 18px;
    height: 18px;
    vertical-align: sub;
@@ -554,31 +556,73 @@ h3 {
    fill: #c1c1c1;
 }
 
-@media print {
-   /* стили для печати */
+.my-education-section .work-experience-description p {
+   margin: 12px 0 12px -12px;
+}
 
+.soft-skills {
+   margin: 0 15px;
+}
+
+.my-description-section.about-me {
+   display: flex;
+   flex-wrap: wrap;
+   /* justify-content: space-evenly; */
+   gap: 10px;
+}
+
+.full-work-experience.main-container {
+   display: flex;
+   flex-direction: column;
+   min-height: 60vh;
+   box-sizing: border-box;
+   padding: 80px 50px;
+   margin-top: 60px;
+}
+
+.full-work-experience > .main-content-section {
+   width: 100%;
+}
+
+/* стили для печати */
+@media print {
    html,
    body {
-      overflow: hidden;
       width: 100%;
-      /* background: #1e2939; */
       /* background: grey; */
       background: transparent !important;
+      /* background: #1e2939; */
       box-sizing: border-box;
       margin: 0;
-      margin-right: auto;
+      /* margin-right: auto !important; */
       padding: 0;
+      overflow: hidden;
    }
 
    .main-container {
+      margin: 0;
       box-shadow: none !important;
       padding: 0;
       box-sizing: border-box;
-      padding-top: 10px;
+      /* padding-top: 10px; */
       height: 100%;
+      /* overflow: hidden; */
    }
 
    .sidebar-section {
+      position: relative;
       padding: 0;
+      padding-bottom: 118.2px;
+   }
+   .sidebar-section::before {
+      display: block;
+      position: absolute;
+      content: '';
+      height: 5px;
+      width: 100%;
+      left: 0;
+      bottom: -5px;
+      background: red;
+      z-index: 9;
    }
 }
