@@ -123,6 +123,8 @@ a.orange:hover {
    font-size: 28px;
    width: 100%;
    white-space: nowrap;
+   padding-left: 0 !important;
+   padding-top: 20px !important;
 }
 
 .underline,
@@ -198,9 +200,6 @@ a.orange:hover {
    /* margin-bottom: 18px; */
 }
 
-.my-description-section p {
-   width: 80%;
-}
 
 .my-profile {
    display: flex;
@@ -308,16 +307,19 @@ address span.work-experience-subtitle {
 .tech-skills-item ul {
    margin-bottom: 4px;
    margin-top: 4px;
+   padding-left: 25px;
+ 
 }
 
 .tech-skills-item ul li {
    line-height: 160%;
-   font-size: 14px;
+   font-size: 16px;
 }
 
 .education .tech-skills-item-text {
    line-height: 130%;
    margin: 8px 0;
+   font-size: 14px;
 }
 
 .graduate {
@@ -361,7 +363,8 @@ address span.work-experience-subtitle {
 .work-experience-subtitle {
    font-size: 16px;
    line-height: 16px;
-   color: #a8a8a8;
+   /* color: #a8a8a8; */
+   color: #838383;
    font-weight: 400;
    margin-left: 5px;
 }
