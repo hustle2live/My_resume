@@ -1,5 +1,4 @@
-# My_resume
+#### Full-Stack Developer CV
 
-**This is my CV.**
 
-To view it [click here](https://hustle2live.github.io/My_resume/)
+Follow to view it [here ->](https://hustle2live.github.io/My_resume/)
