@@ -78,17 +78,17 @@ a.orange:hover {
    color: #fb6d3a98;
 }
 
-/* .pink {
-   color: rgb(220, 97, 117);
-   font-weight: 600;
+
+
+h4.work-experience-description {
+   font-size: 16px !important;
+   margin-bottom: 4px;
 }
 
-.blue {
-   color: blueviolet;
-   font-weight: 600;
-} */
+.work-experience-description {
+   font-size: 14px;
+}
 
-.work-experience-description,
 .contact-section-type,
 .contact-section-link,
 .tech-skills-item-text,
@@ -123,6 +123,8 @@ a.orange:hover {
    font-size: 28px;
    width: 100%;
    white-space: nowrap;
+   padding-left: 0 !important;
+   padding-top: 20px !important;
 }
 
 .underline,
@@ -155,24 +157,27 @@ a.orange:hover {
    margin: 0 auto;
    box-shadow: 6px 6px 20px rgba(102, 65, 65, 0.1);
 
-   width: 1620px;
-   /* min-height: 100vh; */
+   /* width: 1620px; */
+   width: 1240px;
+   height: 1754px;
 }
 
 .main-content-section {
    display: block;
    width: 65%;
-   padding: 50px 120px 80px 90px;
+   /* padding: 50px 120px 80px 90px; */
+   padding: 50px 80px 60px 50px;
+   box-sizing: border-box;
 }
 
 .sidebar-section {
    display: block;
    width: 35%;
    background-color: #1e2939;
-   padding: 0 0 20px 0;
-
+   /* padding: 0 0 20px 0; */
+   padding: 0;
    /* min-height: 100%; */
-   min-height: 100%;
+   height: 100%;
 }
 
 .sidebar-section,
@@ -182,11 +187,14 @@ a.orange:hover {
 
 .sidebar-info-section {
    padding-right: 24px;
+   padding-right: 44px;
 }
 
 .my-name-section {
-   font-size: 44px;
-   line-height: 55px;
+   /* font-size: 44px; */
+   /* line-height: 55px; */
+   font-size: 34px;
+   line-height: 42px;
    margin: 19px 0 -5px 0;
 }
 
@@ -196,10 +204,6 @@ a.orange:hover {
    text-align: justify;
    margin-bottom: 8px;
    /* margin-bottom: 18px; */
-}
-
-.my-description-section p {
-   width: 80%;
 }
 
 .my-profile {
@@ -235,16 +239,21 @@ a.orange:hover {
    margin: 0;
 }
 
-.my-description-section p:not(.my-name-section),
 .my-work-experience-section .work-experience-title {
    padding-left: 20px;
 }
+
+.my-description-section p:not(.my-name-section),
 .my-description-section > .work-experience-subtitle.location {
-   padding-left: 0;
+   padding-left: 20px;
 }
 
-.my-work-experience-section .work-experience-description {
-   max-width: 720px;
+.ps-20 {
+   padding-left: 20px !important;
+}
+
+.work-experience-description {
+   /* max-width: 85%; */
 }
 
 .tech-skills-list {
@@ -264,10 +273,6 @@ a.orange:hover {
    margin: 35px 0 0 60px;
 }
 
-/* .contact-section {
-   margin-top: 42px;
-} */
-
 ul.contact-section-type {
    list-style-type: none;
    margin-left: -40px;
@@ -279,7 +284,6 @@ address span.work-experience-subtitle {
    font-size: 16px;
    line-height: 24px;
    color: #fff;
-   opacity: 0.89;
 }
 
 li.contact-section-link {
@@ -288,7 +292,8 @@ li.contact-section-link {
 }
 
 .contact-section-link span {
-   font-weight: bold;
+   font-weight: 500;
+   color: #ffffffbd;
    font-style: normal;
 }
 
@@ -308,16 +313,17 @@ address span.work-experience-subtitle {
 .tech-skills-item ul {
    margin-bottom: 4px;
    margin-top: 4px;
+   padding-left: 25px;
 }
 
 .tech-skills-item ul li {
    line-height: 160%;
-   font-size: 14px;
+   font-size: 16px;
 }
 
-.education .tech-skills-item-text {
+.education p {
    line-height: 130%;
-   margin: 8px 0;
+   margin: 6px 0;
 }
 
 .graduate {
@@ -361,9 +367,12 @@ address span.work-experience-subtitle {
 .work-experience-subtitle {
    font-size: 16px;
    line-height: 16px;
-   color: #a8a8a8;
+   color: #838383;
    font-weight: 400;
    margin-left: 5px;
+}
+.education .work-experience-subtitle {
+   color: #a8a8a8;
 }
 
 .soft-skills-section.work-with .work-experience-subtitle {
@@ -438,6 +447,7 @@ h3 {
 .contact-section-type,
 .contact-section a {
    color: #fff;
+   text-decoration-color: rgba(255, 255, 255, 0.25);
 }
 
 .my-projects-link.project {
@@ -557,7 +567,13 @@ h3 {
 }
 
 .my-education-section .work-experience-description p {
-   margin: 12px 0 12px -12px;
+   /* margin: 12px 0 12px -12px; */
+   margin: 4px -12px;
+   /* line-height: 1.4; */
+}
+
+.work-experience-description .stack-description {
+   margin: 10px 0 12px -12px !important;
 }
 
 .soft-skills {
@@ -588,41 +604,16 @@ h3 {
 @media print {
    html,
    body {
-      width: 100%;
-      /* background: grey; */
       background: transparent !important;
-      /* background: #1e2939; */
       box-sizing: border-box;
       margin: 0;
-      /* margin-right: auto !important; */
       padding: 0;
       overflow: hidden;
    }
 
    .main-container {
       margin: 0;
+      padding: 0;
       box-shadow: none !important;
-      padding: 0;
-      box-sizing: border-box;
-      /* padding-top: 10px; */
-      height: 100%;
-      /* overflow: hidden; */
-   }
-
-   .sidebar-section {
-      position: relative;
-      padding: 0;
-      padding-bottom: 118.2px;
-   }
-   .sidebar-section::before {
-      display: block;
-      position: absolute;
-      content: '';
-      height: 5px;
-      width: 100%;
-      left: 0;
-      bottom: -5px;
-      background: red;
-      z-index: 9;
    }
 }
