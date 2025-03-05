@@ -130,11 +130,13 @@ h4.work-experience-description {
 }
 
 .sidebar-title,
-.contact-section-type,
 .tech-skills-item-text,
 .social,
-.sidebar-info-section {
-   color: #fff;
+.sidebar-info-section,
+.contact-section-type,
+.contact-section a {
+   /* color: #fff; */
+   color: #000000;
 }
 
 .big-h2 {
@@ -144,13 +146,15 @@ h4.work-experience-description {
 }
 
 .li-white ul li::marker {
-   color: rgba(255, 255, 255, 0.856);
+   /* color: rgba(255, 255, 255, 0.856); */
 }
 
 .main-container {
    display: flex;
    flex-direction: row-reverse;
-   background-color: #fff;
+   /* background-color: #fff; */
+   background-color: #dfcfbb;
+   background-color: #f5f5f5;
    margin: 0 auto;
    box-shadow: 6px 6px 20px rgba(102, 65, 65, 0.1);
    width: 1240px;
@@ -168,6 +172,13 @@ h4.work-experience-description {
    display: block;
    width: 35%;
    background-color: #1e2939;
+   background-color: #fff;
+   background-color: #dfcfbb;
+   background-color: #f5f5f5;
+
+   /* background-color: #dfcfbb; */
+   border-right: 1px solid rgba(0, 0, 0, 0.063) !important;
+
    padding: 0;
    height: 100%;
 }
@@ -209,7 +220,24 @@ h4.work-experience-description {
 }
 
 .cv-photo {
-   background: transparent;
+   display: block;
+   overflow: hidden;
+   /* background: transparent; */
+   border-radius: 50% 50% / 50% 50%;
+   height: 340px;
+   width: 340px;
+   margin: auto;
+   margin-top: 2rem;
+   object-fit: cover;
+
+   /* border: none; */
+   /* padding-top: 8px; */
+}
+.cv-photo img {
+   width: 100%;
+   height: 100%;
+   object-position: center center;
+   object-fit: cover;
 }
 
 .my-description-section,
@@ -268,7 +296,7 @@ ul.contact-section-type {
 address span.work-experience-subtitle {
    font-size: 16px;
    line-height: 24px;
-   color: #fff;
+   /* color: #fff; */
 }
 
 li.contact-section-link {
@@ -278,7 +306,7 @@ li.contact-section-link {
 
 .contact-section-link span {
    font-weight: 500;
-   color: #ffffffbd;
+   /* color: #ffffffbd; */
    font-style: normal;
 }
 
@@ -290,8 +318,8 @@ address span.work-experience-subtitle {
    color: #c1c1c1;
 }
 
-.orange,
-.tech-skills-item {
+/* .tech-skills-item, */
+.orange {
    color: #fb6d3a;
 }
 
@@ -370,7 +398,7 @@ address span.work-experience-subtitle {
 
 .contact-section .work-experience-subtitle {
    font-size: 16px;
-   color: #fff;
+   /* color: #fff; */
    margin-left: 0;
 }
 
@@ -404,7 +432,6 @@ h3 {
    text-align: justify;
 }
 
-
 .my-projects-text {
    font-weight: 400;
 }
@@ -414,21 +441,13 @@ h3 {
    line-height: 15px;
 }
 
-.cv-photo {
-   width: 100%;
-   height: auto;
-   border: none;
-   padding-top: 8px;
-   background-color: #fff;
-}
-
 .black {
    color: #000;
 }
 
 .contact-section-type,
 .contact-section a {
-   color: #fff;
+   /* color: #fff; */
    text-decoration-color: rgba(255, 255, 255, 0.25);
 }
 
